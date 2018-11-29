@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "a83687e72d606df70e836af0bc9f411a"
+build_time: [1543490026, 832756000]
+inputs:
+  "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/SampleApp-Swift/MessagingViewController.swift": [1543490026, 0]
+  "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/SampleApp-Swift/MonitoringViewController.swift": [1534766145, 0]
+  "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/SampleApp-Swift/ConversationViewController.swift": [1540395743, 0]
+  "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/SampleApp-Swift/AppDelegate.swift": [1539601431, 0]
+  "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/SampleApp-Swift/MainViewController.swift": [1543489232, 0]

@@ -1,0 +1,931 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MonitoringViewController"
+provides-nominal:
+- "15SampleApp_Swift24MonitoringViewControllerC"
+provides-member:
+- ["15SampleApp_Swift24MonitoringViewControllerC", ""]
+provides-dynamic-lookup:
+- "accountTextField"
+- "didReceiveMemoryWarning"
+- "getEngagementClicked"
+- "initSDKsClicked"
+- "logoutClicked"
+- "sendSDEClicked"
+- "showConversationWithCampaignClicked"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "Array"
+- !private "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- "LPCampaignInfo"
+- !private "LPConversationViewParams"
+- !private "LPMessagingSDK"
+- !private "LPMonitoringAPI"
+- !private "LPMonitoringInitParams"
+- !private "LPMonitoringParams"
+- "MonitoringViewController"
+- !private "NSError"
+- "String"
+- "StringLiteralType"
+- "UITextField"
+- "UIViewController"
+- !private "print"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "LPCampaignInfo"]
+- !private ["s7CVarArgP", "LPConversationViewParams"]
+- !private ["s7CVarArgP", "LPMessagingSDK"]
+- !private ["s7CVarArgP", "LPMonitoringAPI"]
+- !private ["s7CVarArgP", "LPMonitoringInitParams"]
+- !private ["s7CVarArgP", "LPMonitoringParams"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "accountTextField"]
+- !private ["s7CVarArgP", "appInstallID"]
+- !private ["s7CVarArgP", "campaignId"]
+- !private ["s7CVarArgP", "campaignInfo"]
+- !private ["s7CVarArgP", "consumerID"]
+- !private ["s7CVarArgP", "contextId"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "engagementDetails"]
+- !private ["s7CVarArgP", "engagementId"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "getConversationBrandQuery"]
+- !private ["s7CVarArgP", "getEngagement"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "instance"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "logout"]
+- !private ["s7CVarArgP", "pageId"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sendSDE"]
+- !private ["s7CVarArgP", "showConversation"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "description"]
+- !private ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "LPCampaignInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "LPConversationViewParams"]
+- !private ["s28CustomDebugStringConvertibleP", "LPMessagingSDK"]
+- !private ["s28CustomDebugStringConvertibleP", "LPMonitoringAPI"]
+- !private ["s28CustomDebugStringConvertibleP", "LPMonitoringInitParams"]
+- !private ["s28CustomDebugStringConvertibleP", "LPMonitoringParams"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "accountTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "appInstallID"]
+- !private ["s28CustomDebugStringConvertibleP", "campaignId"]
+- !private ["s28CustomDebugStringConvertibleP", "campaignInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "consumerID"]
+- !private ["s28CustomDebugStringConvertibleP", "contextId"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "engagementDetails"]
+- !private ["s28CustomDebugStringConvertibleP", "engagementId"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "getConversationBrandQuery"]
+- !private ["s28CustomDebugStringConvertibleP", "getEngagement"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "instance"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "logout"]
+- !private ["s28CustomDebugStringConvertibleP", "pageId"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "sendSDE"]
+- !private ["s28CustomDebugStringConvertibleP", "showConversation"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "LPCampaignInfo"]
+- !private ["s23CustomStringConvertibleP", "LPConversationViewParams"]
+- !private ["s23CustomStringConvertibleP", "LPMessagingSDK"]
+- !private ["s23CustomStringConvertibleP", "LPMonitoringAPI"]
+- !private ["s23CustomStringConvertibleP", "LPMonitoringInitParams"]
+- !private ["s23CustomStringConvertibleP", "LPMonitoringParams"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "accountTextField"]
+- !private ["s23CustomStringConvertibleP", "appInstallID"]
+- !private ["s23CustomStringConvertibleP", "campaignId"]
+- !private ["s23CustomStringConvertibleP", "campaignInfo"]
+- !private ["s23CustomStringConvertibleP", "consumerID"]
+- !private ["s23CustomStringConvertibleP", "contextId"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "engagementDetails"]
+- !private ["s23CustomStringConvertibleP", "engagementId"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "getConversationBrandQuery"]
+- !private ["s23CustomStringConvertibleP", "getEngagement"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
+- !private ["s23CustomStringConvertibleP", "instance"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "logout"]
+- !private ["s23CustomStringConvertibleP", "pageId"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "sendSDE"]
+- !private ["s23CustomStringConvertibleP", "showConversation"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "campaignId"]
+- !private ["s9DecodableP", "contextId"]
+- !private ["s9DecodableP", "description"]
+- !private ["s9DecodableP", "engagementDetails"]
+- !private ["s9DecodableP", "engagementId"]
+- !private ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "pageId"]
+- !private ["s10DictionaryV", "description"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "campaignId"]
+- !private ["s9EncodableP", "contextId"]
+- !private ["s9EncodableP", "description"]
+- !private ["s9EncodableP", "engagementDetails"]
+- !private ["s9EncodableP", "engagementId"]
+- !private ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "pageId"]
+- !private ["s9EquatableP", "LPCampaignInfo"]
+- !private ["s9EquatableP", "LPConversationViewParams"]
+- !private ["s9EquatableP", "LPMessagingSDK"]
+- !private ["s9EquatableP", "LPMonitoringAPI"]
+- !private ["s9EquatableP", "LPMonitoringInitParams"]
+- !private ["s9EquatableP", "LPMonitoringParams"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "accountTextField"]
+- !private ["s9EquatableP", "appInstallID"]
+- !private ["s9EquatableP", "campaignId"]
+- !private ["s9EquatableP", "campaignInfo"]
+- !private ["s9EquatableP", "consumerID"]
+- !private ["s9EquatableP", "contextId"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "endEditing"]
+- !private ["s9EquatableP", "engagementDetails"]
+- !private ["s9EquatableP", "engagementId"]
+- !private ["s9EquatableP", "getConversationBrandQuery"]
+- !private ["s9EquatableP", "getEngagement"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- !private ["s9EquatableP", "instance"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "logout"]
+- !private ["s9EquatableP", "pageId"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "sendSDE"]
+- !private ["s9EquatableP", "showConversation"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "userInfo"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- !private ["s5ErrorP", "userInfo"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s8HashableP", "LPCampaignInfo"]
+- !private ["s8HashableP", "LPConversationViewParams"]
+- !private ["s8HashableP", "LPMessagingSDK"]
+- !private ["s8HashableP", "LPMonitoringAPI"]
+- !private ["s8HashableP", "LPMonitoringInitParams"]
+- !private ["s8HashableP", "LPMonitoringParams"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "accountTextField"]
+- !private ["s8HashableP", "appInstallID"]
+- !private ["s8HashableP", "campaignId"]
+- !private ["s8HashableP", "campaignInfo"]
+- !private ["s8HashableP", "consumerID"]
+- !private ["s8HashableP", "contextId"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "endEditing"]
+- !private ["s8HashableP", "engagementDetails"]
+- !private ["s8HashableP", "engagementId"]
+- !private ["s8HashableP", "getConversationBrandQuery"]
+- !private ["s8HashableP", "getEngagement"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- !private ["s8HashableP", "instance"]
+- !private ["s8HashableP", "isEmpty"]
+- !private ["s8HashableP", "logout"]
+- !private ["s8HashableP", "pageId"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "sendSDE"]
+- !private ["s8HashableP", "showConversation"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- !private ["7LPInfra14LPCampaignInfoC", "init"]
+- !private ["7LPInfra24LPConversationViewParamsC", "init"]
+- !private ["12LPMonitoring19LPEngagementDetailsC", "campaignId"]
+- !private ["12LPMonitoring19LPEngagementDetailsC", "contextId"]
+- !private ["12LPMonitoring19LPEngagementDetailsC", "engagementId"]
+- !private ["12LPMonitoring23LPGetEngagementResponseC", "engagementDetails"]
+- !private ["12LPMonitoring23LPGetEngagementResponseC", "pageId"]
+- !private ["14LPMessagingSDKAAC", "getConversationBrandQuery"]
+- !private ["14LPMessagingSDKAAC", "initialize"]
+- !private ["14LPMessagingSDKAAC", "instance"]
+- !private ["14LPMessagingSDKAAC", "logout"]
+- !private ["14LPMessagingSDKAAC", "showConversation"]
+- !private ["12LPMonitoring0A3APIC", "getEngagement"]
+- !private ["12LPMonitoring0A3APIC", "instance"]
+- !private ["12LPMonitoring0A3APIC", "sendSDE"]
+- !private ["12LPMonitoring0A10InitParamsC", "init"]
+- !private ["12LPMonitoring0A6ParamsC", "init"]
+- !private ["12LPMonitoring17LPSendSDEResponseC", "pageId"]
+- !private ["7LPInfra19LogsManagerDelegateP", "getConversationBrandQuery"]
+- !private ["7LPInfra19LogsManagerDelegateP", "initialize"]
+- !private ["7LPInfra19LogsManagerDelegateP", "instance"]
+- !private ["7LPInfra19LogsManagerDelegateP", "logout"]
+- !private ["7LPInfra19LogsManagerDelegateP", "showConversation"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "LPCampaignInfo"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "LPConversationViewParams"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "LPMessagingSDK"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "LPMonitoringAPI"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "LPMonitoringInitParams"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "LPMonitoringParams"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "NSError"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "String"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "UITextField"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "accountTextField"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "appInstallID"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "campaignInfo"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "consumerID"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "deinit"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "didReceiveMemoryWarning"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "getEngagementClicked"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "init"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "initSDKsClicked"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "logoutClicked"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "pageId"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "print"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "sendSDEClicked"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "showConversationWithCampaignClicked"]
+- !private ["15SampleApp_Swift24MonitoringViewControllerC", "view"]
+- ["15SampleApp_Swift24MonitoringViewControllerC", "viewDidLoad"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["So8NSCodingP", "LPCampaignInfo"]
+- !private ["So8NSCodingP", "LPConversationViewParams"]
+- !private ["So8NSCodingP", "LPMessagingSDK"]
+- !private ["So8NSCodingP", "LPMonitoringAPI"]
+- !private ["So8NSCodingP", "LPMonitoringInitParams"]
+- !private ["So8NSCodingP", "LPMonitoringParams"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "accountTextField"]
+- !private ["So8NSCodingP", "appInstallID"]
+- !private ["So8NSCodingP", "campaignInfo"]
+- !private ["So8NSCodingP", "consumerID"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "endEditing"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "pageId"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "userInfo"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "userInfo"]
+- !private ["So7NSErrorC", "userInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "LPCampaignInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "LPConversationViewParams"]
+- !private ["So26NSExtensionRequestHandlingP", "LPMessagingSDK"]
+- !private ["So26NSExtensionRequestHandlingP", "LPMonitoringAPI"]
+- !private ["So26NSExtensionRequestHandlingP", "LPMonitoringInitParams"]
+- !private ["So26NSExtensionRequestHandlingP", "LPMonitoringParams"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "accountTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "appInstallID"]
+- !private ["So26NSExtensionRequestHandlingP", "campaignInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "consumerID"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "pageId"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- ["So8NSObjectC", "LPCampaignInfo"]
+- !private ["So8NSObjectC", "LPConversationViewParams"]
+- !private ["So8NSObjectC", "LPMessagingSDK"]
+- !private ["So8NSObjectC", "LPMonitoringAPI"]
+- !private ["So8NSObjectC", "LPMonitoringInitParams"]
+- !private ["So8NSObjectC", "LPMonitoringParams"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "accountTextField"]
+- ["So8NSObjectC", "appInstallID"]
+- !private ["So8NSObjectC", "campaignId"]
+- ["So8NSObjectC", "campaignInfo"]
+- ["So8NSObjectC", "consumerID"]
+- !private ["So8NSObjectC", "contextId"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- !private ["So8NSObjectC", "endEditing"]
+- !private ["So8NSObjectC", "engagementDetails"]
+- !private ["So8NSObjectC", "engagementId"]
+- !private ["So8NSObjectC", "getConversationBrandQuery"]
+- !private ["So8NSObjectC", "getEngagement"]
+- ["So8NSObjectC", "getEngagementClicked"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "initSDKsClicked"]
+- !private ["So8NSObjectC", "initialize"]
+- !private ["So8NSObjectC", "instance"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "logout"]
+- ["So8NSObjectC", "logoutClicked"]
+- ["So8NSObjectC", "pageId"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "sendSDE"]
+- ["So8NSObjectC", "sendSDEClicked"]
+- !private ["So8NSObjectC", "showConversation"]
+- ["So8NSObjectC", "showConversationWithCampaignClicked"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "LPCampaignInfo"]
+- !private ["So16NSObjectProtocolP", "LPConversationViewParams"]
+- !private ["So16NSObjectProtocolP", "LPMessagingSDK"]
+- !private ["So16NSObjectProtocolP", "LPMonitoringAPI"]
+- !private ["So16NSObjectProtocolP", "LPMonitoringInitParams"]
+- !private ["So16NSObjectProtocolP", "LPMonitoringParams"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "accountTextField"]
+- !private ["So16NSObjectProtocolP", "appInstallID"]
+- !private ["So16NSObjectProtocolP", "campaignId"]
+- !private ["So16NSObjectProtocolP", "campaignInfo"]
+- !private ["So16NSObjectProtocolP", "consumerID"]
+- !private ["So16NSObjectProtocolP", "contextId"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
+- !private ["So16NSObjectProtocolP", "engagementDetails"]
+- !private ["So16NSObjectProtocolP", "engagementId"]
+- !private ["So16NSObjectProtocolP", "getConversationBrandQuery"]
+- !private ["So16NSObjectProtocolP", "getEngagement"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initialize"]
+- !private ["So16NSObjectProtocolP", "instance"]
+- !private ["So16NSObjectProtocolP", "isEmpty"]
+- !private ["So16NSObjectProtocolP", "logout"]
+- !private ["So16NSObjectProtocolP", "pageId"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "sendSDE"]
+- !private ["So16NSObjectProtocolP", "showConversation"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "userInfo"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s8SequenceP", "description"]
+- !private ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "isEmpty"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "LPCampaignInfo"]
+- !private ["So21UIAppearanceContainerP", "LPConversationViewParams"]
+- !private ["So21UIAppearanceContainerP", "LPMessagingSDK"]
+- !private ["So21UIAppearanceContainerP", "LPMonitoringAPI"]
+- !private ["So21UIAppearanceContainerP", "LPMonitoringInitParams"]
+- !private ["So21UIAppearanceContainerP", "LPMonitoringParams"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "accountTextField"]
+- !private ["So21UIAppearanceContainerP", "appInstallID"]
+- !private ["So21UIAppearanceContainerP", "campaignInfo"]
+- !private ["So21UIAppearanceContainerP", "consumerID"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "pageId"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "LPCampaignInfo"]
+- !private ["So18UIContentContainerP", "LPConversationViewParams"]
+- !private ["So18UIContentContainerP", "LPMessagingSDK"]
+- !private ["So18UIContentContainerP", "LPMonitoringAPI"]
+- !private ["So18UIContentContainerP", "LPMonitoringInitParams"]
+- !private ["So18UIContentContainerP", "LPMonitoringParams"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "accountTextField"]
+- !private ["So18UIContentContainerP", "appInstallID"]
+- !private ["So18UIContentContainerP", "campaignInfo"]
+- !private ["So18UIContentContainerP", "consumerID"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "pageId"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "LPCampaignInfo"]
+- !private ["So18UIFocusEnvironmentP", "LPConversationViewParams"]
+- !private ["So18UIFocusEnvironmentP", "LPMessagingSDK"]
+- !private ["So18UIFocusEnvironmentP", "LPMonitoringAPI"]
+- !private ["So18UIFocusEnvironmentP", "LPMonitoringInitParams"]
+- !private ["So18UIFocusEnvironmentP", "LPMonitoringParams"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "accountTextField"]
+- !private ["So18UIFocusEnvironmentP", "appInstallID"]
+- !private ["So18UIFocusEnvironmentP", "campaignInfo"]
+- !private ["So18UIFocusEnvironmentP", "consumerID"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "pageId"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UINavigationControllerDelegateP", "getConversationBrandQuery"]
+- !private ["So30UINavigationControllerDelegateP", "initialize"]
+- !private ["So30UINavigationControllerDelegateP", "instance"]
+- !private ["So30UINavigationControllerDelegateP", "logout"]
+- !private ["So30UINavigationControllerDelegateP", "showConversation"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPCampaignInfo"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPConversationViewParams"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPMessagingSDK"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPMonitoringAPI"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPMonitoringInitParams"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPMonitoringParams"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "accountTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "appInstallID"]
+- !private ["So30UIPasteConfigurationSupportingP", "campaignInfo"]
+- !private ["So30UIPasteConfigurationSupportingP", "consumerID"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "pageId"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "LPCampaignInfo"]
+- !private ["So11UIResponderC", "LPConversationViewParams"]
+- !private ["So11UIResponderC", "LPMessagingSDK"]
+- !private ["So11UIResponderC", "LPMonitoringAPI"]
+- !private ["So11UIResponderC", "LPMonitoringInitParams"]
+- !private ["So11UIResponderC", "LPMonitoringParams"]
+- !private ["So11UIResponderC", "NSError"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "accountTextField"]
+- ["So11UIResponderC", "appInstallID"]
+- ["So11UIResponderC", "campaignInfo"]
+- ["So11UIResponderC", "consumerID"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- !private ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "getEngagementClicked"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "initSDKsClicked"]
+- ["So11UIResponderC", "logoutClicked"]
+- ["So11UIResponderC", "pageId"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "sendSDEClicked"]
+- ["So11UIResponderC", "showConversationWithCampaignClicked"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "LPCampaignInfo"]
+- !private ["So30UIResponderStandardEditActionsP", "LPConversationViewParams"]
+- !private ["So30UIResponderStandardEditActionsP", "LPMessagingSDK"]
+- !private ["So30UIResponderStandardEditActionsP", "LPMonitoringAPI"]
+- !private ["So30UIResponderStandardEditActionsP", "LPMonitoringInitParams"]
+- !private ["So30UIResponderStandardEditActionsP", "LPMonitoringParams"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "accountTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "appInstallID"]
+- !private ["So30UIResponderStandardEditActionsP", "campaignInfo"]
+- !private ["So30UIResponderStandardEditActionsP", "consumerID"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "pageId"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "LPCampaignInfo"]
+- !private ["So16UIStateRestoringP", "LPConversationViewParams"]
+- !private ["So16UIStateRestoringP", "LPMessagingSDK"]
+- !private ["So16UIStateRestoringP", "LPMonitoringAPI"]
+- !private ["So16UIStateRestoringP", "LPMonitoringInitParams"]
+- !private ["So16UIStateRestoringP", "LPMonitoringParams"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "accountTextField"]
+- !private ["So16UIStateRestoringP", "appInstallID"]
+- !private ["So16UIStateRestoringP", "campaignInfo"]
+- !private ["So16UIStateRestoringP", "consumerID"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "pageId"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "LPCampaignInfo"]
+- !private ["So18UITraitEnvironmentP", "LPConversationViewParams"]
+- !private ["So18UITraitEnvironmentP", "LPMessagingSDK"]
+- !private ["So18UITraitEnvironmentP", "LPMonitoringAPI"]
+- !private ["So18UITraitEnvironmentP", "LPMonitoringInitParams"]
+- !private ["So18UITraitEnvironmentP", "LPMonitoringParams"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "accountTextField"]
+- !private ["So18UITraitEnvironmentP", "appInstallID"]
+- !private ["So18UITraitEnvironmentP", "campaignInfo"]
+- !private ["So18UITraitEnvironmentP", "consumerID"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "pageId"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "LPCampaignInfo"]
+- !private ["So16UIViewControllerC", "LPConversationViewParams"]
+- !private ["So16UIViewControllerC", "LPMessagingSDK"]
+- !private ["So16UIViewControllerC", "LPMonitoringAPI"]
+- !private ["So16UIViewControllerC", "LPMonitoringInitParams"]
+- !private ["So16UIViewControllerC", "LPMonitoringParams"]
+- !private ["So16UIViewControllerC", "NSError"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "accountTextField"]
+- ["So16UIViewControllerC", "appInstallID"]
+- ["So16UIViewControllerC", "campaignInfo"]
+- ["So16UIViewControllerC", "consumerID"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "getEngagementClicked"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "initSDKsClicked"]
+- ["So16UIViewControllerC", "logoutClicked"]
+- ["So16UIViewControllerC", "pageId"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "sendSDEClicked"]
+- ["So16UIViewControllerC", "showConversationWithCampaignClicked"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s23_BidirectionalIndexableP", "first"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s10_IndexableP", "description"]
+- !private ["s10_IndexableP", "first"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "description"]
+- !private ["s14_IndexableBaseP", "first"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPCampaignInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPConversationViewParams"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPMessagingSDK"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPMonitoringAPI"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPMonitoringInitParams"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPMonitoringParams"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accountTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appInstallID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "campaignId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "campaignInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "consumerID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contextId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "engagementDetails"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "engagementId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getConversationBrandQuery"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getEngagement"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pageId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendSDE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showConversation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "description"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s22_RandomAccessIndexableP", "first"]
+- !private ["s26_RangeReplaceableIndexableP", "first"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "7LPInfra14LPCampaignInfoC"
+- !private "7LPInfra24LPConversationViewParamsC"
+- !private "12LPMonitoring19LPEngagementDetailsC"
+- !private "12LPMonitoring23LPGetEngagementResponseC"
+- !private "14LPMessagingSDKAAC"
+- !private "12LPMonitoring0A3APIC"
+- !private "12LPMonitoring0A10InitParamsC"
+- !private "12LPMonitoring0A6ParamsC"
+- !private "12LPMonitoring17LPSendSDEResponseC"
+- !private "7LPInfra19LogsManagerDelegateP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "15SampleApp_Swift24MonitoringViewControllerC"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- !private "So30UINavigationControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Modules/LPMessagingSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Modules/LPAMS.swiftmodule/x86_64.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Modules/LPInfra.swiftmodule/x86_64.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Modules/LPMonitoring.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Headers/LPMessagingSDK.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Headers/LPAMS.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Headers/LPInfra.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRRunLoopThread.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/CIContext+Workaround.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRHTTPConnectMessage.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSRunLoop+SRWebSocketPrivate.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSURLRequest+SRWebSocketPrivate.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Headers/LPMonitoring.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRLog.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRHash.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/PrivateHeaders/LPTTTAttributedLabel.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRIOConsumerPool.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRRandom.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/LPBSMobileProvision.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/ExceptionCatcher.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRDelegateController.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRIOConsumer.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRError.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/LPRNCryptor.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRURLUtilities.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRSIMDHelpers.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRConstants.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRProxyConnect.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSRunLoop+SRWebSocket.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSURLRequest+SRWebSocket.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRWebSocket.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Headers/LPMessagingSDK-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Headers/LPAMS-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Headers/LPInfra-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Headers/LPMonitoring-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/PrivateHeaders/UIRefreshControl+UITableView.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRMutex.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRSecurityPolicy.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRPinningSecurityPolicy.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Modules/module.modulemap"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Modules/module.modulemap"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Modules/module.modulemap"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Modules/module.modulemap"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "c33560f274df3d06d0fc42f8633ee22d"

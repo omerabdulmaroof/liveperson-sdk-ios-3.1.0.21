@@ -1,0 +1,749 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "15SampleApp_Swift0B8DelegateC"
+provides-member:
+- ["15SampleApp_Swift0B8DelegateC", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+depends-top-level:
+- !private "+"
+- "AnyHashable"
+- "AppDelegate"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Data"
+- !private "LPMessagingSDK"
+- "LPMessagingSDKNotificationDelegate"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIBackgroundFetchResult"
+- !private "UINavigationBar"
+- "UIResponder"
+- !private "UIUserNotificationSettings"
+- !private "UIUserNotificationType"
+- "UIWindow"
+- !private "UNUserNotificationCenter"
+- "Void"
+- !private "print"
+depends-member:
+- ["15SampleApp_Swift0B8DelegateC", "AnyHashable"]
+- ["15SampleApp_Swift0B8DelegateC", "Bool"]
+- ["15SampleApp_Swift0B8DelegateC", "Data"]
+- !private ["15SampleApp_Swift0B8DelegateC", "LPMessagingSDK"]
+- ["15SampleApp_Swift0B8DelegateC", "LPMessagingSDKNotification"]
+- ["15SampleApp_Swift0B8DelegateC", "UIApplication"]
+- ["15SampleApp_Swift0B8DelegateC", "UIApplicationLaunchOptionsKey"]
+- ["15SampleApp_Swift0B8DelegateC", "UIBackgroundFetchResult"]
+- !private ["15SampleApp_Swift0B8DelegateC", "UINavigationBar"]
+- !private ["15SampleApp_Swift0B8DelegateC", "UIUserNotificationSettings"]
+- !private ["15SampleApp_Swift0B8DelegateC", "UIUserNotificationType"]
+- ["15SampleApp_Swift0B8DelegateC", "UIWindow"]
+- !private ["15SampleApp_Swift0B8DelegateC", "UNUserNotificationCenter"]
+- ["15SampleApp_Swift0B8DelegateC", "Void"]
+- ["15SampleApp_Swift0B8DelegateC", "application"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationDidBecomeActive"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationDidEnterBackground"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationDidFinishLaunching"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationDidReceiveMemoryWarning"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationProtectedDataDidBecomeAvailable"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationShouldRequestHealthAuthorization"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationSignificantTimeChange"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationWillEnterForeground"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationWillResignActive"]
+- ["15SampleApp_Swift0B8DelegateC", "applicationWillTerminate"]
+- ["15SampleApp_Swift0B8DelegateC", "deinit"]
+- ["15SampleApp_Swift0B8DelegateC", "init"]
+- !private ["15SampleApp_Swift0B8DelegateC", "print"]
+- ["15SampleApp_Swift0B8DelegateC", "window"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["So15CALayerDelegateP", "appearance"]
+- !private ["So15CALayerDelegateP", "tintColor"]
+- !private ["s7CVarArgP", "LPMessagingSDK"]
+- ["s7CVarArgP", "LPMessagingSDKNotification"]
+- !private ["s7CVarArgP", "UINavigationBar"]
+- !private ["s7CVarArgP", "UIUserNotificationSettings"]
+- !private ["s7CVarArgP", "UIUserNotificationType"]
+- !private ["s7CVarArgP", "UNUserNotificationCenter"]
+- !private ["s7CVarArgP", "appearance"]
+- ["s7CVarArgP", "application"]
+- ["s7CVarArgP", "applicationDidBecomeActive"]
+- ["s7CVarArgP", "applicationDidEnterBackground"]
+- ["s7CVarArgP", "applicationDidFinishLaunching"]
+- ["s7CVarArgP", "applicationDidReceiveMemoryWarning"]
+- ["s7CVarArgP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s7CVarArgP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s7CVarArgP", "applicationShouldRequestHealthAuthorization"]
+- ["s7CVarArgP", "applicationSignificantTimeChange"]
+- ["s7CVarArgP", "applicationWillEnterForeground"]
+- ["s7CVarArgP", "applicationWillResignActive"]
+- ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "getSDKVersion"]
+- !private ["s7CVarArgP", "handlePush"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instance"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "registerForRemoteNotifications"]
+- !private ["s7CVarArgP", "registerPushNotifications"]
+- !private ["s7CVarArgP", "registerUserNotificationSettings"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "tintColor"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", "window"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "LPMessagingSDK"]
+- ["s28CustomDebugStringConvertibleP", "LPMessagingSDKNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "UINavigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "UIUserNotificationSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "UIUserNotificationType"]
+- !private ["s28CustomDebugStringConvertibleP", "UNUserNotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "appearance"]
+- ["s28CustomDebugStringConvertibleP", "application"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s28CustomDebugStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s28CustomDebugStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s28CustomDebugStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
+- ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "getSDKVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "handlePush"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instance"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "registerForRemoteNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "registerPushNotifications"]
+- !private ["s28CustomDebugStringConvertibleP", "registerUserNotificationSettings"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "tintColor"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", "window"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "LPMessagingSDK"]
+- ["s23CustomStringConvertibleP", "LPMessagingSDKNotification"]
+- !private ["s23CustomStringConvertibleP", "UINavigationBar"]
+- !private ["s23CustomStringConvertibleP", "UIUserNotificationSettings"]
+- !private ["s23CustomStringConvertibleP", "UIUserNotificationType"]
+- !private ["s23CustomStringConvertibleP", "UNUserNotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "appearance"]
+- ["s23CustomStringConvertibleP", "application"]
+- ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
+- ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
+- ["s23CustomStringConvertibleP", "applicationDidFinishLaunching"]
+- ["s23CustomStringConvertibleP", "applicationDidReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s23CustomStringConvertibleP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s23CustomStringConvertibleP", "applicationShouldRequestHealthAuthorization"]
+- ["s23CustomStringConvertibleP", "applicationSignificantTimeChange"]
+- ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
+- ["s23CustomStringConvertibleP", "applicationWillResignActive"]
+- ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "getSDKVersion"]
+- !private ["s23CustomStringConvertibleP", "handlePush"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instance"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "registerForRemoteNotifications"]
+- !private ["s23CustomStringConvertibleP", "registerPushNotifications"]
+- !private ["s23CustomStringConvertibleP", "registerUserNotificationSettings"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "tintColor"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", "window"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "LPMessagingSDK"]
+- ["s9EquatableP", "LPMessagingSDKNotification"]
+- !private ["s9EquatableP", "UINavigationBar"]
+- !private ["s9EquatableP", "UIUserNotificationSettings"]
+- !private ["s9EquatableP", "UIUserNotificationType"]
+- !private ["s9EquatableP", "UNUserNotificationCenter"]
+- !private ["s9EquatableP", "alert"]
+- !private ["s9EquatableP", "appearance"]
+- ["s9EquatableP", "application"]
+- ["s9EquatableP", "applicationDidBecomeActive"]
+- ["s9EquatableP", "applicationDidEnterBackground"]
+- ["s9EquatableP", "applicationDidFinishLaunching"]
+- ["s9EquatableP", "applicationDidReceiveMemoryWarning"]
+- ["s9EquatableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s9EquatableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s9EquatableP", "applicationShouldRequestHealthAuthorization"]
+- ["s9EquatableP", "applicationSignificantTimeChange"]
+- ["s9EquatableP", "applicationWillEnterForeground"]
+- ["s9EquatableP", "applicationWillResignActive"]
+- ["s9EquatableP", "applicationWillTerminate"]
+- !private ["s9EquatableP", "badge"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "getSDKVersion"]
+- !private ["s9EquatableP", "handlePush"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instance"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "registerForRemoteNotifications"]
+- !private ["s9EquatableP", "registerPushNotifications"]
+- !private ["s9EquatableP", "registerUserNotificationSettings"]
+- !private ["s9EquatableP", "requestAuthorization"]
+- !private ["s9EquatableP", "sound"]
+- !private ["s9EquatableP", "tintColor"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", "window"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "alert"]
+- !private ["s25ExpressibleByArrayLiteralP", "badge"]
+- !private ["s25ExpressibleByArrayLiteralP", "sound"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "white"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "LPMessagingSDK"]
+- ["s8HashableP", "LPMessagingSDKNotification"]
+- !private ["s8HashableP", "UINavigationBar"]
+- !private ["s8HashableP", "UIUserNotificationSettings"]
+- !private ["s8HashableP", "UIUserNotificationType"]
+- !private ["s8HashableP", "UNUserNotificationCenter"]
+- !private ["s8HashableP", "appearance"]
+- ["s8HashableP", "application"]
+- ["s8HashableP", "applicationDidBecomeActive"]
+- ["s8HashableP", "applicationDidEnterBackground"]
+- ["s8HashableP", "applicationDidFinishLaunching"]
+- ["s8HashableP", "applicationDidReceiveMemoryWarning"]
+- ["s8HashableP", "applicationProtectedDataDidBecomeAvailable"]
+- ["s8HashableP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["s8HashableP", "applicationShouldRequestHealthAuthorization"]
+- ["s8HashableP", "applicationSignificantTimeChange"]
+- ["s8HashableP", "applicationWillEnterForeground"]
+- ["s8HashableP", "applicationWillResignActive"]
+- ["s8HashableP", "applicationWillTerminate"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "getSDKVersion"]
+- !private ["s8HashableP", "handlePush"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instance"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "registerForRemoteNotifications"]
+- !private ["s8HashableP", "registerPushNotifications"]
+- !private ["s8HashableP", "registerUserNotificationSettings"]
+- !private ["s8HashableP", "requestAuthorization"]
+- !private ["s8HashableP", "tintColor"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", "window"]
+- ["s8HashableP", ""]
+- !private ["SQ", "white"]
+- !private ["14LPMessagingSDKAAC", "getSDKVersion"]
+- !private ["14LPMessagingSDKAAC", "handlePush"]
+- !private ["14LPMessagingSDKAAC", "instance"]
+- !private ["14LPMessagingSDKAAC", "registerPushNotifications"]
+- !private ["14LPMessagingSDK0A23SDKNotificationDelegateP", "LPMessagingSDK"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "LPMessagingSDKNotification"]
+- !private ["14LPMessagingSDK0A23SDKNotificationDelegateP", "UINavigationBar"]
+- !private ["14LPMessagingSDK0A23SDKNotificationDelegateP", "UIUserNotificationSettings"]
+- !private ["14LPMessagingSDK0A23SDKNotificationDelegateP", "UIUserNotificationType"]
+- !private ["14LPMessagingSDK0A23SDKNotificationDelegateP", "UNUserNotificationCenter"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "application"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationDidBecomeActive"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationDidEnterBackground"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationDidFinishLaunching"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationSignificantTimeChange"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationWillEnterForeground"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationWillResignActive"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "applicationWillTerminate"]
+- !private ["14LPMessagingSDK0A23SDKNotificationDelegateP", "print"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", "window"]
+- ["14LPMessagingSDK0A23SDKNotificationDelegateP", ""]
+- !private ["7LPInfra19LogsManagerDelegateP", "getSDKVersion"]
+- !private ["7LPInfra19LogsManagerDelegateP", "handlePush"]
+- !private ["7LPInfra19LogsManagerDelegateP", "instance"]
+- !private ["7LPInfra19LogsManagerDelegateP", "registerPushNotifications"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "appearance"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "tintColor"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "AnyHashable"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "LPMessagingSDK"]
+- ["So8NSObjectC", "LPMessagingSDKNotification"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
+- ["So8NSObjectC", "UIBackgroundFetchResult"]
+- !private ["So8NSObjectC", "UINavigationBar"]
+- !private ["So8NSObjectC", "UIUserNotificationSettings"]
+- !private ["So8NSObjectC", "UIUserNotificationType"]
+- ["So8NSObjectC", "UIWindow"]
+- !private ["So8NSObjectC", "UNUserNotificationCenter"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "appearance"]
+- ["So8NSObjectC", "application"]
+- ["So8NSObjectC", "applicationDidBecomeActive"]
+- ["So8NSObjectC", "applicationDidEnterBackground"]
+- ["So8NSObjectC", "applicationDidFinishLaunching"]
+- ["So8NSObjectC", "applicationDidReceiveMemoryWarning"]
+- ["So8NSObjectC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So8NSObjectC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So8NSObjectC", "applicationShouldRequestHealthAuthorization"]
+- ["So8NSObjectC", "applicationSignificantTimeChange"]
+- ["So8NSObjectC", "applicationWillEnterForeground"]
+- ["So8NSObjectC", "applicationWillResignActive"]
+- ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "getSDKVersion"]
+- !private ["So8NSObjectC", "handlePush"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instance"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "registerForRemoteNotifications"]
+- !private ["So8NSObjectC", "registerPushNotifications"]
+- !private ["So8NSObjectC", "registerUserNotificationSettings"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- !private ["So8NSObjectC", "tintColor"]
+- !private ["So8NSObjectC", "white"]
+- ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "LPMessagingSDK"]
+- ["So16NSObjectProtocolP", "LPMessagingSDKNotification"]
+- !private ["So16NSObjectProtocolP", "UINavigationBar"]
+- !private ["So16NSObjectProtocolP", "UIUserNotificationSettings"]
+- !private ["So16NSObjectProtocolP", "UIUserNotificationType"]
+- !private ["So16NSObjectProtocolP", "UNUserNotificationCenter"]
+- !private ["So16NSObjectProtocolP", "appearance"]
+- ["So16NSObjectProtocolP", "application"]
+- ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
+- ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
+- ["So16NSObjectProtocolP", "applicationDidFinishLaunching"]
+- ["So16NSObjectProtocolP", "applicationDidReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So16NSObjectProtocolP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So16NSObjectProtocolP", "applicationShouldRequestHealthAuthorization"]
+- ["So16NSObjectProtocolP", "applicationSignificantTimeChange"]
+- ["So16NSObjectProtocolP", "applicationWillEnterForeground"]
+- ["So16NSObjectProtocolP", "applicationWillResignActive"]
+- ["So16NSObjectProtocolP", "applicationWillTerminate"]
+- !private ["So16NSObjectProtocolP", "current"]
+- !private ["So16NSObjectProtocolP", "getSDKVersion"]
+- !private ["So16NSObjectProtocolP", "handlePush"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instance"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "registerForRemoteNotifications"]
+- !private ["So16NSObjectProtocolP", "registerPushNotifications"]
+- !private ["So16NSObjectProtocolP", "registerUserNotificationSettings"]
+- !private ["So16NSObjectProtocolP", "requestAuthorization"]
+- !private ["So16NSObjectProtocolP", "tintColor"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", "window"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["So8NSStringC", "init"]
+- !private ["s9OptionSetP", "alert"]
+- !private ["s9OptionSetP", "badge"]
+- !private ["s9OptionSetP", "sound"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "alert"]
+- !private ["s16RawRepresentableP", "badge"]
+- !private ["s16RawRepresentableP", "sound"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "alert"]
+- !private ["s10SetAlgebraP", "badge"]
+- !private ["s10SetAlgebraP", "sound"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "appearance"]
+- !private ["So29UIAccessibilityIdentificationP", "tintColor"]
+- !private ["So12UIAppearanceP", "appearance"]
+- !private ["So12UIAppearanceP", "tintColor"]
+- !private ["So21UIAppearanceContainerP", "appearance"]
+- !private ["So21UIAppearanceContainerP", "tintColor"]
+- !private ["So13UIApplicationC", "registerForRemoteNotifications"]
+- !private ["So13UIApplicationC", "registerUserNotificationSettings"]
+- !private ["So21UIApplicationDelegateP", "LPMessagingSDK"]
+- ["So21UIApplicationDelegateP", "LPMessagingSDKNotification"]
+- !private ["So21UIApplicationDelegateP", "UINavigationBar"]
+- !private ["So21UIApplicationDelegateP", "UIUserNotificationSettings"]
+- !private ["So21UIApplicationDelegateP", "UIUserNotificationType"]
+- !private ["So21UIApplicationDelegateP", "UNUserNotificationCenter"]
+- ["So21UIApplicationDelegateP", "application"]
+- ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
+- ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
+- ["So21UIApplicationDelegateP", "applicationDidFinishLaunching"]
+- ["So21UIApplicationDelegateP", "applicationDidReceiveMemoryWarning"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So21UIApplicationDelegateP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So21UIApplicationDelegateP", "applicationShouldRequestHealthAuthorization"]
+- ["So21UIApplicationDelegateP", "applicationSignificantTimeChange"]
+- ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
+- ["So21UIApplicationDelegateP", "applicationWillResignActive"]
+- ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "print"]
+- ["So21UIApplicationDelegateP", "window"]
+- ["So21UIApplicationDelegateP", ""]
+- !private ["So16UIBarPositioningP", "appearance"]
+- !private ["So16UIBarPositioningP", "tintColor"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "appearance"]
+- !private ["So17UICoordinateSpaceP", "tintColor"]
+- !private ["So13UIDynamicItemP", "appearance"]
+- !private ["So13UIDynamicItemP", "tintColor"]
+- !private ["So18UIFocusEnvironmentP", "appearance"]
+- !private ["So18UIFocusEnvironmentP", "tintColor"]
+- !private ["So11UIFocusItemP", "appearance"]
+- !private ["So11UIFocusItemP", "tintColor"]
+- !private ["So15UINavigationBarC", "appearance"]
+- !private ["So15UINavigationBarC", "tintColor"]
+- !private ["So30UINavigationControllerDelegateP", "getSDKVersion"]
+- !private ["So30UINavigationControllerDelegateP", "handlePush"]
+- !private ["So30UINavigationControllerDelegateP", "instance"]
+- !private ["So30UINavigationControllerDelegateP", "registerPushNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "LPMessagingSDK"]
+- ["So30UIPasteConfigurationSupportingP", "LPMessagingSDKNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINavigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIUserNotificationSettings"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIUserNotificationType"]
+- !private ["So30UIPasteConfigurationSupportingP", "UNUserNotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "appearance"]
+- ["So30UIPasteConfigurationSupportingP", "application"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidFinishLaunching"]
+- ["So30UIPasteConfigurationSupportingP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIPasteConfigurationSupportingP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIPasteConfigurationSupportingP", "applicationSignificantTimeChange"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
+- ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "registerForRemoteNotifications"]
+- !private ["So30UIPasteConfigurationSupportingP", "registerUserNotificationSettings"]
+- !private ["So30UIPasteConfigurationSupportingP", "tintColor"]
+- ["So30UIPasteConfigurationSupportingP", "window"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "AnyHashable"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Data"]
+- !private ["So11UIResponderC", "LPMessagingSDK"]
+- ["So11UIResponderC", "LPMessagingSDKNotification"]
+- ["So11UIResponderC", "UIApplication"]
+- ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
+- ["So11UIResponderC", "UIBackgroundFetchResult"]
+- !private ["So11UIResponderC", "UINavigationBar"]
+- !private ["So11UIResponderC", "UIUserNotificationSettings"]
+- !private ["So11UIResponderC", "UIUserNotificationType"]
+- ["So11UIResponderC", "UIWindow"]
+- !private ["So11UIResponderC", "UNUserNotificationCenter"]
+- ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "appearance"]
+- ["So11UIResponderC", "application"]
+- ["So11UIResponderC", "applicationDidBecomeActive"]
+- ["So11UIResponderC", "applicationDidEnterBackground"]
+- ["So11UIResponderC", "applicationDidFinishLaunching"]
+- ["So11UIResponderC", "applicationDidReceiveMemoryWarning"]
+- ["So11UIResponderC", "applicationProtectedDataDidBecomeAvailable"]
+- ["So11UIResponderC", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So11UIResponderC", "applicationShouldRequestHealthAuthorization"]
+- ["So11UIResponderC", "applicationSignificantTimeChange"]
+- ["So11UIResponderC", "applicationWillEnterForeground"]
+- ["So11UIResponderC", "applicationWillResignActive"]
+- ["So11UIResponderC", "applicationWillTerminate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "registerForRemoteNotifications"]
+- !private ["So11UIResponderC", "registerUserNotificationSettings"]
+- !private ["So11UIResponderC", "tintColor"]
+- ["So11UIResponderC", "window"]
+- ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "LPMessagingSDK"]
+- ["So30UIResponderStandardEditActionsP", "LPMessagingSDKNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "UINavigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "UIUserNotificationSettings"]
+- !private ["So30UIResponderStandardEditActionsP", "UIUserNotificationType"]
+- !private ["So30UIResponderStandardEditActionsP", "UNUserNotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "appearance"]
+- ["So30UIResponderStandardEditActionsP", "application"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidFinishLaunching"]
+- ["So30UIResponderStandardEditActionsP", "applicationDidReceiveMemoryWarning"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataDidBecomeAvailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["So30UIResponderStandardEditActionsP", "applicationShouldRequestHealthAuthorization"]
+- ["So30UIResponderStandardEditActionsP", "applicationSignificantTimeChange"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
+- ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "registerForRemoteNotifications"]
+- !private ["So30UIResponderStandardEditActionsP", "registerUserNotificationSettings"]
+- !private ["So30UIResponderStandardEditActionsP", "tintColor"]
+- ["So30UIResponderStandardEditActionsP", "window"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So18UITraitEnvironmentP", "appearance"]
+- !private ["So18UITraitEnvironmentP", "tintColor"]
+- !private ["So26UIUserNotificationSettingsC", "init"]
+- !private ["SC22UIUserNotificationTypeV", "alert"]
+- !private ["SC22UIUserNotificationTypeV", "badge"]
+- !private ["SC22UIUserNotificationTypeV", "sound"]
+- !private ["So6UIViewC", "appearance"]
+- !private ["So6UIViewC", "tintColor"]
+- !private ["SC22UNAuthorizationOptionsV", "alert"]
+- !private ["SC22UNAuthorizationOptionsV", "badge"]
+- !private ["SC22UNAuthorizationOptionsV", "sound"]
+- !private ["So24UNUserNotificationCenterC", "current"]
+- !private ["So24UNUserNotificationCenterC", "requestAuthorization"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "appearance"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "tintColor"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LPMessagingSDK"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LPMessagingSDKNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINavigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIUserNotificationSettings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIUserNotificationType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UNUserNotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appearance"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "application"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidFinishLaunching"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataDidBecomeAvailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationProtectedDataWillBecomeUnavailable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationShouldRequestHealthAuthorization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationSignificantTimeChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSDKVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handlePush"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerForRemoteNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerPushNotifications"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "registerUserNotificationSettings"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tintColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "white"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "15SampleApp_Swift0B8DelegateC"
+- !private "s23BidirectionalCollectionP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "SQ"
+- !private "14LPMessagingSDKAAC"
+- "14LPMessagingSDK0A23SDKNotificationDelegateP"
+- !private "7LPInfra19LogsManagerDelegateP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So21UIApplicationDelegateP"
+- !private "So16UIBarPositioningP"
+- !private "So7UIColorC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So15UINavigationBarC"
+- !private "So30UINavigationControllerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So26UIUserNotificationSettingsC"
+- !private "SC22UIUserNotificationTypeV"
+- !private "So6UIViewC"
+- !private "SC22UNAuthorizationOptionsV"
+- !private "So24UNUserNotificationCenterC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Modules/LPMessagingSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Modules/LPAMS.swiftmodule/x86_64.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Modules/LPInfra.swiftmodule/x86_64.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Modules/LPMonitoring.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Photos.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Headers/LPMessagingSDK.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Headers/LPAMS.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Headers/LPInfra.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRRunLoopThread.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/CIContext+Workaround.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRHTTPConnectMessage.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSRunLoop+SRWebSocketPrivate.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSURLRequest+SRWebSocketPrivate.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Headers/LPMonitoring.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRLog.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRHash.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/PrivateHeaders/LPTTTAttributedLabel.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRIOConsumerPool.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRRandom.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/LPBSMobileProvision.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/ExceptionCatcher.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRDelegateController.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRIOConsumer.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRError.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/LPRNCryptor.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRURLUtilities.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRSIMDHelpers.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRConstants.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRProxyConnect.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSRunLoop+SRWebSocket.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/NSURLRequest+SRWebSocket.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRWebSocket.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Headers/LPMessagingSDK-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Headers/LPAMS-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Headers/LPInfra-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Headers/LPMonitoring-Swift.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/PrivateHeaders/UIRefreshControl+UITableView.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRMutex.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRSecurityPolicy.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/PrivateHeaders/SRPinningSecurityPolicy.h"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework/Modules/module.modulemap"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPAMS.framework/Modules/module.modulemap"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/Modules/module.modulemap"
+- "/Users/omaroof/Documents/code/iOS/live-person-sample-3.1.0.21/Swift/Pods/LPMessagingSDK/LPMessagingSDK/LPMonitoring.framework/Modules/module.modulemap"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Photos.framework/Headers/Photos.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode_9.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "edd977e4fca64232a45bc08d3587adea"
